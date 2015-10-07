@@ -1,7 +1,7 @@
 #Spark examples
 ##Pre-requisite
 * Don't need to install Spark
-* For the time being, Spark is compatible with Scala of up to 2.10.x version only.  It has to set ```scalaVersion := "2.10.4"```, ```scalazVersion = "7.1.0"```.  Otherwise it will get class not found error for scala classes during runtime.
+* Once got class not found error for scala classes during runtime where using scala 2.11.x.  The problem seems to be gone after setting to scala 2.11.7 and spark 1.4.1.
 
 ##Apache log analysis
 It does different basic calculation on the apache log files, e.g. how many requests sent for different response codes etc.

@@ -2,12 +2,14 @@ name := "sparkPrototype"
 
 version := "1.0"
 
-scalaVersion := "2.10.4"
+//scalaVersion := "2.10.4"
+scalaVersion := "2.11.7"
 
 //val scalazVersion = "7.0.6"
 val scalazVersion = "7.1.0"
 
-val sparkVersion = "1.3.0"
+//val sparkVersion = "1.3.0"
+val sparkVersion = "1.4.1"
 
 libraryDependencies ++= {
   Seq(
